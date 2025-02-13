@@ -1,5 +1,11 @@
-<div class="container">
+<!-- <div class="container">
   <h1>Proyecto001, propietario {{name}}</h1>
   <p>Edad: {{edad}} años</p>
   <p>{{esFumador()}}</p>
+</div> -->
+
+<div>
+  <p>Ingrese nombre<input type="text" [(ngModel)]="nombre"></p>
+  <p>Ingrese apellido<input type="text" [(ngModel)]="apellido"></p>
+  <p>Nombre completo:{{nombre}},{{apellido}}</p>
 </div>
